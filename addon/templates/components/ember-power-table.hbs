@@ -1,0 +1,8 @@
+<thead>
+    {{component headerComponent columns=_columns sorting=sorting sort=(action 'modifySort')}}
+</thead>
+<tbody>
+    {{#each content as |row|}}
+        {{component rowComponent row=row columns=_columns}}
+    {{/each}}
+</tbody>

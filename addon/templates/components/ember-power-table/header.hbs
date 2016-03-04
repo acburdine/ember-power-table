@@ -1,0 +1,10 @@
+{{#each columns as |column|}}
+    {{#unless column.hidden}}
+        <th style="user-select: none; -webkit-user-select: none;" class="clearfix" {{action 'modifySort' column allowedKeys="shift"}}>
+            {{column.header}}
+            {{#unless (or (surelyNot sorting) (surelyNot column.sorting))}}
+                <i style="padding: 3px 0" class="pull-right fa fa-fw {{if column.sort (if (eq column.sort 'desc') 'fa-sort-amount-desc' 'fa-sort-amount-asc')}}"></i>
+            {{/unless}}
+        </th>
+    {{/unless}}
+{{/each}}

@@ -1,0 +1,9 @@
+{{#each columns as |column|}}
+    {{#unless column.hidden}}
+        {{component (if column.component column.component 'ember-table/column')
+            value=(get row column.key)
+            row=row
+            column=column
+        }}
+    {{/unless}}
+{{/each}}
