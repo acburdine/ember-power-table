@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-power-table'
+    name: 'ember-power-table'
 };
