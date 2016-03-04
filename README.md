@@ -10,7 +10,7 @@ ember install ember-power-table
 
 ## Usage
 
-Check out the documentation at https://acburdine.github.io/ember-power-table/
+Check out the documentation at https://acburdine.github.io/ember-power-table/ [WIP]
 
 ## Running
 
