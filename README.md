@@ -5,7 +5,7 @@ Ember Power Table is a pure Ember table component that is designed with composab
 ## Installation
 
 ```bash
-ember install ember-power-select
+ember install ember-power-table
 ```
 
 ## Usage
