@@ -1,7 +1,7 @@
 {
   "name": "ember-power-table",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Composable Ember component for tables.",
   "directories": {
     "doc": "doc",
     "test": "tests"
