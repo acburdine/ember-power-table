@@ -1,12 +1,16 @@
 # Ember-power-table
 
-This README outlines the details of collaborating on this Ember addon.
+Ember Power Table is a pure Ember table component that is designed with composability and flexibility in mind.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```bash
+ember install ember-power-select
+```
+
+## Usage
+
+Check out the documentation at https://acburdine.github.io/ember-power-table/
 
 ## Running
 
@@ -18,9 +22,3 @@ This README outlines the details of collaborating on this Ember addon.
 * `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
